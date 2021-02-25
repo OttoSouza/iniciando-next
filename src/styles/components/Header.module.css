@@ -17,10 +17,12 @@
   align-items: center;
 }
 
+
 .headerContainer div svg {
-  margin-right: 2rem;
+  color: #ffe300;
 }
 
-.headerContainer div svg:last-child {
-  margin-right: 0;
+.headerContainer div svg:nth-child(2) {
+  margin: 0 2rem;
 }
+

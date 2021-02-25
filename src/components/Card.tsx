@@ -26,7 +26,7 @@ export const MyCard: React.FC<CharactersProps> = ({ data }) => {
 
         <div className={styles.informationContainer}>
           <div className={styles.informationContent}>
-            <Typography variant="h6">Informations</Typography>
+            <Typography variant="h6" className={styles.aboutCharacters}>Informations</Typography>
 
             <Typography variant="subtitle2">
               <strong>Gender</strong> - {data.gender}
